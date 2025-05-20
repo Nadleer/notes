@@ -1,4 +1,5 @@
 In this writeup we will talk about planning lab which is an easy lab in Hack the box
+
 [planning](../images/planning.png)
 
 # nmap
