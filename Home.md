@@ -1,6 +1,6 @@
 # Welcome to My journey 📚
 
-![alt text](images/king.jpg)
+![you will win. and you will be crowned](images/king.jpg)
 
 Hi! This is the central place where I collect all my writeups, notes, and research from my bug bounty and CTF journey.
 
