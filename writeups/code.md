@@ -1,5 +1,6 @@
 # nmap
 
+![code](../images/code.png)
 `╰─❯ sudo nmap -sV 10.10.11.62
 Password:
 Starting Nmap 7.95 ( [https://nmap.org](https://nmap.org/) ) at 2025-05-20 15:14 EEST
