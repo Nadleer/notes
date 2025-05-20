@@ -2,6 +2,7 @@
 
 # Welcome to My journey 📚
 
+![alt text](images/king.jpg)
 Hi! This is the central place where I collect all my writeups, notes, and research from my bug bounty and CTF journey.
 
 Feel free to browse the challenges, techniques, and tools I've documented here.
