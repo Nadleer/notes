@@ -1,1 +1,5 @@
-# here i will document my journey as penetration tester. i will write writeups and labs walkthroughs.
+# Home
+
+<p> here i will document my journey as a bug hunter / penetration tester.
+
+[labs](writeups)
