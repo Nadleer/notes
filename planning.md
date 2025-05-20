@@ -57,6 +57,5 @@ we now have the cronjobs and can set a new one
 
 set a new one that copies the bash binary into the tmp directory
 
-![image.png](attachment:5d6502ec-de7a-46cd-a24e-fc85d80ad45b:image.png)
-
+![cronjobs](images/cron.png)
 from enzo run ./bash -p in the tmp folder and now we are root
