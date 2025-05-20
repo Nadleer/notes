@@ -84,8 +84,6 @@ for dir in $directories_to_archive; do
 done
 ```
 
-![image.png](attachment:fce74251-b6ae-4442-bfe2-ed1dfed57d4c:image.png)
-
 so that means we can edit the directories to archive to any file we want so we will put user.txt and to go to root we will use the ../ method
 
 /home/…./root
